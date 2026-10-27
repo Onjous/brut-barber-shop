@@ -1,0 +1,12 @@
+# Normalizacja końców linii (LF w repozytorium, niezależnie od systemu)
+* text=auto eol=lf
+
+# Pliki binarne — bez prób łączenia i diffów tekstowych
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.webp binary
+*.avif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
